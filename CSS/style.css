@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 0px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.head1 {
+    width: 50%;
+    float: left;
+}
+.head2 {
+ width: 50%;
+ float: right;
+ text-align: center;
+
+}
+.head2 ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.head2 ul li a:hover {
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    
+    
+}
+.head2 ul li a {
+    text-decoration: none;
+    color:black;
+}
