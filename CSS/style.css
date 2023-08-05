@@ -5,6 +5,7 @@ body {
     width: 100%;
     height: 120px;
     background-color: aqua;
+    
     margin-top: 0px;
 }
 .container {
@@ -62,8 +63,8 @@ body {
     color:black;
 }
 .head2 ul button {
-    padding: 10px;
-    background-color: blue;
+    padding: 15px 20px;
+    background-color: darkorange;
     border-radius: 10px;
     border: none;
     text-transform: uppercase;
@@ -78,7 +79,7 @@ body {
     word-spacing: 3px;
 }
 .head2 ul button:hover {
-    background-color: orange;
+    background-color: #cccccc;
     transform: scale(1.1);
     box-shadow: 6px 7px 8px black;
 }
@@ -95,6 +96,148 @@ body {
 .main1 {
     width: 100%;
     height: 500px;
-    background-color:olivedrab;
+    background-Image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczEtamlyYS0wMTE2LWt3YW4tMDFfMS5qcGc.jpg);
+    background-color: #cccccc;
     padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
+.mainpart {
+    width: 60%;
+    float: left;
+}
+.mainpart {
+    color: black;
+    font-family: 'Borel', cursive;
+}
+.mainpart h2 {
+    font-size: 40px;
+    margin: 50px 0px 0px 0px;
+}
+hr {
+    width: 90%;
+    height: 2px;
+    border-color: blue;
+    background-color: black;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.mainpart p {
+    font-size: 20px;
+    font-family: arial;
+}
+.mainpart2 {
+    width: 40%;
+    float: right;
+}
+.mainpart2 img {
+    width: 600px;
+    padding: 0px 0px 20px 30px;
+    transition: 1s;
+
+}
+.mainpart2 img:hover {
+    /*transform: matrix(1, 0, 0.2, 1, 50, 0);*/
+    transform: scale(1.2);
+    transform-origin: 10% 60%;
+}
+.main1 button {
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    font-size: 20px;
+    margin-top: 60px;
+    Text-transform: uppercase;
+    transition: 1s;
+}
+.main1 button a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.main1 button:hover {
+    background-color: #cccccc;
+    border: 2px solid orangered;
+    transform: scale(1.2);
+    transform-origin: 10% 50%;
+}
+.main1 button a:hover {
+    color: black;
+}
+.main2 {
+    width: 100%;
+    height: 500px;
+    background-color: olivedrab;
+    text-align: center;
+}
+.mainpart3 {
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+}
+.mainpart3 img {
+    width: 300px;
+}
+.mainpart4 {
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+}
+.mainpart4 img {
+    width: 300px;
+}
+.mainpart5 {
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+}
+.mainpart5 img {
+    width: 300px;
+}
+.mainpart6 {
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+}
+.mainpart6 img {
+    width: 300px;
+}
+.main2 hr {
+    width: 100%;
+    height: 2px;
+    border-color: blue;
+    background-color: black;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.main2 button {
+    background-color: orangered;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.main2 button a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.main2 button:hover {
+    background-color: #cccccc;
+    border: 2px solid orangered;
+    transform: scale(1.2);
+    transform-origin: 10% 50%;
+}
+.main2 button a:hover {
+    color: black;
+}
+.main2 h2 {
+    text-transform: uppercase;
+    color: aqua;
+} 
